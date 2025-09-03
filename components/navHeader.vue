@@ -42,18 +42,22 @@
               <div class="rd-navbar-nav-wrap" id="rd-navbar-nav-wrap-1">
                 <!-- RD Navbar Nav-->
                 <ul class="rd-navbar-nav">
-                  <li class="rd-nav-item"><a class="rd-nav-link" href="/">Home</a> </li>
-                  <li class="rd-nav-item active"
-                    ><a class="rd-nav-link" href="about-us.html">About us</a>
+                  <li class="rd-nav-item" :class="{ active: $route.path == '/' }"
+                    ><a class="rd-nav-link" href="/">Home</a>
                   </li>
-                  <li class="rd-nav-item"
-                    ><a class="rd-nav-link" href="projects.html">Projects</a>
+                  <li class="rd-nav-item" :class="{ active: $route.path == '/aboutUs' }"
+                    ><a class="rd-nav-link" href="/aboutUs">About us</a>
+                  </li>
+                  <li
+                    class="rd-nav-item"
+                    :class="{
+                      active: $route.path == '/projects' || $route.path == '/singleProject',
+                    }"
+                    ><a class="rd-nav-link" href="/projects">Projects</a>
                     <!-- RD Navbar Dropdown-->
                     <ul class="rd-menu rd-navbar-dropdown">
                       <li class="rd-dropdown-item"
-                        ><a class="rd-dropdown-link" href="single-project.html"
-                          >Single Project</a
-                        ></li
+                        ><a class="rd-dropdown-link" href="/singleProject">Single Project</a></li
                       >
                     </ul>
                   </li>

@@ -295,7 +295,6 @@
 </template>
 
 <script setup lang="ts">
-  import { NuxtLink } from '#components';
   onMounted(async () => {
     loadScriptClient();
   });

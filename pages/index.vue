@@ -672,23 +672,9 @@
   import SLIDER2 from '/assets/images/slider-architecture-slide-2-1920x800.jpg';
   import SLIDER3 from '/assets/images/slider-architecture-slide-3-1920x800.jpg';
   import SLIDER4 from '/assets/images/slider-architecture-slide-4-1920x800.jpg';
-  import { NuxtLink } from '#components';
-
-  // Nuxt 3 使用 useHead 设置页面元信息
-  // useHead({
-  //   title: 'R&CO',
-  //   meta: [
-  //     { name: 'description', content: 'R&CO' },
-  //     { name: 'keywords', content: 'R&CO' },
-  //   ],
-  //   script: [
-  //     // { src: '/assets/js/core.min.js', defer: true },
-  //     // { src: '/assets/js/script.js', defer: true },
-  //   ],
-  // });
 
   onMounted(async () => {
-    //   loadScriptClient();
+      loadScriptClient();
   });
 </script>
 <style lang="scss" scoped></style>
