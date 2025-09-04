@@ -62,27 +62,27 @@
                     </ul>
                   </li>
                   <li class="rd-nav-item"
-                    ><a class="rd-nav-link" href="services.html">Services</a>
+                    ><a class="rd-nav-link" href="/services">Services</a>
                     <!-- RD Navbar Dropdown-->
                     <ul class="rd-menu rd-navbar-dropdown">
                       <li class="rd-dropdown-item"
-                        ><a class="rd-dropdown-link" href="single-service.html"
+                        ><a class="rd-dropdown-link" href="/singleService"
                           >Single Service</a
                         ></li
                       >
                     </ul>
                   </li>
                   <li class="rd-nav-item"
-                    ><a class="rd-nav-link" href="sidebar-blog.html">Blog</a>
+                    ><a class="rd-nav-link" href="/sidebarBlog">Blog</a>
                     <!-- RD Navbar Dropdown-->
                     <ul class="rd-menu rd-navbar-dropdown">
                       <li class="rd-dropdown-item"
-                        ><a class="rd-dropdown-link" href="single-blog-post.html"
+                        ><a class="rd-dropdown-link" href="/singleBlogPost"
                           >Single Blog Post</a
                         ></li
                       >
                       <li class="rd-dropdown-item"
-                        ><a class="rd-dropdown-link" href="sidebar-blog.html">Sidebar Blog</a></li
+                        ><a class="rd-dropdown-link" href="/sidebarBlog">Sidebar Blog</a></li
                       >
                     </ul>
                   </li>
