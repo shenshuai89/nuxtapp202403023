@@ -407,7 +407,7 @@
             <div class="col-lg-5 wow-outer"
               ><img
                 class="wow slideInLeft"
-                src="/assetsaccordions-1-470x368.jpg"
+                src="/assets/images/accordions-1-470x368.jpg"
                 alt=""
                 width="470"
                 height="368"
