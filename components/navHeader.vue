@@ -61,25 +61,26 @@
                       >
                     </ul>
                   </li>
-                  <li class="rd-nav-item"
+                  <li
+                    class="rd-nav-item"
+                    :class="{
+                      active: $route.path == '/services' || $route.path == '/singleService',
+                    }"
                     ><a class="rd-nav-link" href="/services">Services</a>
                     <!-- RD Navbar Dropdown-->
                     <ul class="rd-menu rd-navbar-dropdown">
                       <li class="rd-dropdown-item"
-                        ><a class="rd-dropdown-link" href="/singleService"
-                          >Single Service</a
-                        ></li
+                        ><a class="rd-dropdown-link" href="/singleService">Single Service</a></li
                       >
                     </ul>
                   </li>
                   <li class="rd-nav-item"
+                    :class="{ active: $route.path == '/sidebarBlog' || $route.path == '/singleBlogPost' }"
                     ><a class="rd-nav-link" href="/sidebarBlog">Blog</a>
                     <!-- RD Navbar Dropdown-->
                     <ul class="rd-menu rd-navbar-dropdown">
                       <li class="rd-dropdown-item"
-                        ><a class="rd-dropdown-link" href="/singleBlogPost"
-                          >Single Blog Post</a
-                        ></li
+                        ><a class="rd-dropdown-link" href="/singleBlogPost">Single Blog Post</a></li
                       >
                       <li class="rd-dropdown-item"
                         ><a class="rd-dropdown-link" href="/sidebarBlog">Sidebar Blog</a></li
@@ -93,29 +94,29 @@
                       <li class="rd-megamenu-item">
                         <ul class="rd-megamenu-list">
                           <li class="rd-megamenu-list-item"
-                            ><a class="rd-megamenu-list-link" href="typography.html"
+                            ><a class="rd-megamenu-list-link" href="/typography"
                               >Typography</a
                             ></li
                           >
                           <li class="rd-megamenu-list-item"
-                            ><a class="rd-megamenu-list-link" href="buttons.html">Buttons</a></li
+                            ><a class="rd-megamenu-list-link" href="/buttons">Buttons</a></li
                           >
                           <li class="rd-megamenu-list-item"
-                            ><a class="rd-megamenu-list-link" href="forms.html">Forms</a></li
+                            ><a class="rd-megamenu-list-link" href="/forms">Forms</a></li
                           >
                           <li class="rd-megamenu-list-item"
-                            ><a class="rd-megamenu-list-link" href="progress-bars.html"
+                            ><a class="rd-megamenu-list-link" href="/progressBars"
                               >Progress bars</a
                             ></li
                           >
                           <li class="rd-megamenu-list-item"
-                            ><a class="rd-megamenu-list-link" href="tabs.html">Tabs</a></li
+                            ><a class="rd-megamenu-list-link" href="/tabs">Tabs</a></li
                           >
                           <li class="rd-megamenu-list-item"
-                            ><a class="rd-megamenu-list-link" href="tables.html">Tables</a></li
+                            ><a class="rd-megamenu-list-link" href="/tables">Tables</a></li
                           >
                           <li class="rd-megamenu-list-item"
-                            ><a class="rd-megamenu-list-link" href="accordions.html"
+                            ><a class="rd-megamenu-list-link" href="/accordions"
                               >Accordions</a
                             ></li
                           >
