@@ -125,33 +125,33 @@
                       <li class="rd-megamenu-item">
                         <ul class="rd-megamenu-list">
                           <li class="rd-megamenu-list-item"
-                            ><a class="rd-megamenu-list-link" href="404-page.html">404 Page</a></li
+                            ><a class="rd-megamenu-list-link" href="404page">404 Page</a></li
                           >
                           <li class="rd-megamenu-list-item"
-                            ><a class="rd-megamenu-list-link" href="503-page.html">503 Page</a></li
+                            ><a class="rd-megamenu-list-link" href="503page">503 Page</a></li
                           >
                           <li class="rd-megamenu-list-item"
-                            ><a class="rd-megamenu-list-link" href="coming-soon.html"
+                            ><a class="rd-megamenu-list-link" href="/comingSoon"
                               >Coming Soon</a
                             ></li
                           >
                           <li class="rd-megamenu-list-item"
-                            ><a class="rd-megamenu-list-link" href="testimonials.html"
+                            ><a class="rd-megamenu-list-link" href="/testimonials"
                               >Testimonials</a
                             ></li
                           >
                           <li class="rd-megamenu-list-item"
-                            ><a class="rd-megamenu-list-link" href="under-construction.html"
+                            ><a class="rd-megamenu-list-link" href="/underConstruction"
                               >Under Construction</a
                             ></li
                           >
                           <li class="rd-megamenu-list-item"
-                            ><a class="rd-megamenu-list-link" href="search-results.html"
+                            ><a class="rd-megamenu-list-link" href="/searchSesults"
                               >Search results</a
                             ></li
                           >
                           <li class="rd-megamenu-list-item"
-                            ><a class="rd-megamenu-list-link" href="privacy-policy.html"
+                            ><a class="rd-megamenu-list-link" href="/privacyPolicy"
                               >Privacy policy</a
                             ></li
                           >
@@ -160,25 +160,25 @@
                       <li class="rd-megamenu-item">
                         <ul class="rd-megamenu-list">
                           <li class="rd-megamenu-list-item"
-                            ><a class="rd-megamenu-list-link" href="careers.html">Careers</a></li
+                            ><a class="rd-megamenu-list-link" href="/careers">Careers</a></li
                           >
                           <li class="rd-megamenu-list-item"
-                            ><a class="rd-megamenu-list-link" href="services.html">Services</a></li
+                            ><a class="rd-megamenu-list-link" href="/services">Services</a></li
                           >
                           <li class="rd-megamenu-list-item"
-                            ><a class="rd-megamenu-list-link" href="single-job.html"
+                            ><a class="rd-megamenu-list-link" href="/singleJob"
                               >Single Job</a
                             ></li
                           >
                           <li class="rd-megamenu-list-item"
-                            ><a class="rd-megamenu-list-link" href="pricing.html">Pricing</a></li
+                            ><a class="rd-megamenu-list-link" href="/pricing">Pricing</a></li
                           >
                         </ul>
                       </li>
                     </ul>
                   </li>
                   <li class="rd-nav-item"
-                    ><a class="rd-nav-link" href="contacts.html">Contacts</a>
+                    ><a class="rd-nav-link" href="/contacts">Contacts</a>
                   </li>
                 </ul>
               </div>
@@ -191,7 +191,7 @@
                 ></button>
                 <form
                   class="rd-search"
-                  action="search-results.html"
+                  action="/searchResults"
                   data-search-live="rd-search-results-live-1"
                   method="GET"
                 >

@@ -21,7 +21,7 @@
                   ><span class="icon icon-md mdi mdi-map-marker text-white"></span
                   ><a class="link-default" href="#"
                     >2130 Fulton Street <br />
-                    San Diego, CA 94117-1080 USA</a
+                    San Diego, CA 90000-1080 USA</a
                   ></li
                 >
                 <li class="object-inline"
@@ -47,7 +47,7 @@
               data-form-output="form-output-global"
               data-form-type="subscribe"
               method="post"
-              action="bat/rd-mailform.php"
+              action=""
             >
               <div class="form-wrap">
                 <input
@@ -87,7 +87,7 @@
           ><span>&copy;&nbsp;</span><span class="copyright-year"></span><span>&nbsp;</span
           ><span>All Rights Reserved.</span><span>&nbsp;</span><br class="d-sm-none" /><a
             class="link-default"
-            href="privacy-policy.html"
+            href="/privacyPolicy"
             >Privacy Policy</a
           >
         </p>
